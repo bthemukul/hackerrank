@@ -42,6 +42,44 @@ function main() {
 }
 
 
+//%%%%%%%%%%%%%%%%%%%%%%%
+  function main() {
+    h = readLine().split(' ');
+    h = h.map(Number);
+    var word = readLine();
+    
+    var wordlen = word.length ;
+        
+    var alphabet  = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+    var wordh = new Array(word.length);
+        
+    for(var l1 =0; l1<wordlen ; l1++){
+            for(var l2 = 0; l2<26 ; l2++){    
+                    if(word[l1]== alphabet[l2]){
+                        wordh[l1] = h[l2];    
+                    }        
+            }
+}
+    
+    var initial = h[0];
+    for( l1=0; l1<wordlen;l1++){
+            if((wordh[l1+1]>wordh[l1]) && (l1+1)<wordlen)
+                { initial=wordh[l1+1];
+                }
+}
+    var sqinch = initial*1*wordlen;
+    
+   console.log(sqinch);   
+}  
+
+
+
+
+
+
+
+
+
 
 
 //Correct Working Code
