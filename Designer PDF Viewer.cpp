@@ -40,3 +40,59 @@ function main() {
     
 
 }
+
+
+
+
+//Correct Working Code
+/*
+#include <map>
+#include <set>
+#include <list>
+#include <cmath>
+#include <ctime>
+#include <deque>
+#include <queue>
+#include <stack>
+#include <string>
+#include <bitset>
+#include <cstdio>
+#include <limits>
+#include <vector>
+#include <climits>
+#include <cstring>
+#include <cstdlib>
+#include <fstream>
+#include <numeric>
+#include <sstream>
+#include <iostream>
+#include <algorithm>
+#include <unordered_map>
+
+using namespace std;
+
+
+int main(){
+    vector<int> h(26);
+    for(int h_i = 0; h_i < 26; h_i++){
+       cin >> h[h_i];
+    }
+    string word;
+    cin >> word;
+    int mh ;
+    
+        //for each letter in the given word
+    for (int i=0; i < word.length(); i++){
+        int temp = (word[i] - 'a'); 
+        if (h[temp] > mh){ //we check it's height
+            mh = h[temp]; //we keep the highest one
+        }
+    }
+    
+    long int sum = word.length() * mh ;
+    cout << sum << endl;
+    
+    return 0;
+}
+
+*/
