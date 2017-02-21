@@ -18,6 +18,7 @@ function readLine() {
     return input_stdin_array[input_currentline++];
 }
 
+/////////////// ignore above this line ////////////////////
 
 function main() {
     h = readLine().split(' ');
