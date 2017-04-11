@@ -1,5 +1,4 @@
-//ArraySumRecursively
-
+//Array Sum Recursively
 
 function sum(array, n){
   n||=0;
