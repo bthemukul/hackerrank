@@ -1,5 +1,5 @@
-//Week 30 Code Competition 
-
+/*Week 30 Code Competition 
+*/
 #include <bits/stdc++.h>
 
 using namespace std;
