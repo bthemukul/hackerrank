@@ -1,4 +1,4 @@
-// Circular Array Rotation
+/*   Circular Array Rotation  */ 
 
 #include <math.h>
 #include <stdio.h>
